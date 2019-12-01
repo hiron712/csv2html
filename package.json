@@ -1,0 +1,22 @@
+{
+  "name": "csv2html",
+  "version": "0.0.1",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "csv-parser": "^2.3.2",
+    "fs": "0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-ejs": "^4.1.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-stylus": "^2.7.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "ie >= 10",
+    "Android >= 4"
+  ]
+}

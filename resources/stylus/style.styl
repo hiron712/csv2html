@@ -1,0 +1,79 @@
+body
+	margin 0
+	padding 0
+	background-color #325e91
+	font-family 'Noto Sans JP', sans-serif
+	color #333333
+
+header
+	padding 15px
+	background #ffffff
+	margin-bottom 15px
+	h1
+		margin 0
+		padding 0
+	a
+		text-decoration none
+		color #333333
+
+footer
+	font-size 10px
+	color #ffffff
+	text-align center
+	padding 10px 0
+	background-color #000000
+
+#contents
+	//display flex
+	background-color #ffffff
+	max-width 1200px
+	width 100%
+	margin 0 auto 30px auto
+	padding 30px 10px
+
+nav
+	width 25%
+main
+	width 75%
+
+table
+	border-collapse collapse
+	border-top 1px solid #cccccc
+	border-left 1px solid #cccccc
+	width 100%
+	th
+		background-color #eeeeee
+		text-align left
+		padding 10px
+		white-space nowrap
+		font-size 14px
+		border-bottom 1px solid #cccccc
+		border-right 1px solid #cccccc
+	td
+		padding 10px
+		font-size 14px
+		border-bottom 1px solid #cccccc
+		border-right 1px solid #cccccc
+
+ul,li
+	padding 0
+	list-style none
+
+ul
+	width 100%
+	max-width 1200px
+	margin 0 auto 10px auto
+
+	li
+		color #ffffff
+		display inline-block
+		&:after
+			content ">"
+			display inline-block
+			margin-left 10px
+	li:last-child:after
+		display none
+	li + li
+		margin-left 10px
+	a
+		color #ffffff
